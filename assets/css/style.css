@@ -90,7 +90,7 @@ header {
   background: transparent;
   border: none;
   border-bottom: 1px solid #333333;
-  display: inline-block;
+  outline: none
 }
 
 .newsletter_form button {
