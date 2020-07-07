@@ -30,8 +30,8 @@ header {
 }
 .menu {
   width: 70%;
-  float: right;
   margin-top: 1px;
+  float: right;
 }
 .menu ul {
   float: right;
@@ -60,15 +60,63 @@ header {
 /* Header End */
 
 /* Banner Start */
-.banner {
-}
 .b_img {
   width: 100%;
 }
 /* Banner End */
 
+/* Gateway Start */
+.gateway {
+  padding: 60px 0;
+}
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.gateway_wrapper {
+}
+.common_tagline {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.common_title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.common_text {
+  margin-bottom: 30px;
+  line-height: 25px;
+}
+/* Gateway End */
+
+/* Blog Start */
+.blog {
+  padding: 60px 0;
+}
+.single {
+  width: 47%;
+  float: left;
+}
+.single:nth-child(even) {
+  margin-left: 6%;
+  margin-bottom: 20px;
+}
+.single img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+/* Blog End */
+
 /* Newsletter Start */
 .newsletter {
+  margin-bottom: 20px;
   padding: 60px 0;
   background-color: #f0f0f0;
 }
@@ -105,3 +153,97 @@ header {
   width: 20px;
 }
 /* Newsletter End */
+
+/* Blog2 Start */
+.blog2 {
+  padding-top: 60px;
+}
+
+/* Blog2 End */
+/* button start */
+.load {
+  padding: 100px 0;
+
+  text-align: center;
+}
+.load button {
+  width: 160px;
+  height: 60px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px solid #626262;
+  cursor: pointer;
+}
+.load button:hover {
+  color: #fff;
+  background-color: #626262;
+}
+.load button:focus {
+  outline: 0;
+}
+/* button End */
+/* Footer Start */
+footer {
+  padding: 25px 0;
+  background-color: #f0f0f0;
+}
+.terms {
+  width: 25%;
+  float: left;
+  overflow: hidden;
+}
+.terms ul {
+  padding-top: 25px;
+  font-size: 14px;
+  list-style: none;
+}
+.terms ul li {
+  float: left;
+}
+.terms ul li a {
+  margin: 10px;
+  color: #626262;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: 0.6s;
+}
+.terms ul li a:hover {
+  border-bottom: 1px solid #626262;
+}
+
+.social {
+  width: 25%;
+  float: right;
+}
+.social ul {
+  padding-top: 25px;
+  list-style: none;
+}
+.social ul li {
+  float: left;
+}
+.social ul li a {
+  font-size: 14px;
+  color: #626262;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid transparent;
+  transition: 0.6s;
+}
+.social ul li a:last-child {
+  border: none;
+}
+
+.social ul li a:hover {
+  border-bottom: 1px solid #626262;
+}
+.social ul li a img {
+  margin-top: 5px;
+  margin-left: 16px;
+}
+.social ul li:last-child a:hover {
+  border-bottom: none;
+}
+/* Footer End */
