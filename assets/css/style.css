@@ -195,7 +195,6 @@ footer {
 }
 .terms ul {
   padding-top: 25px;
-  font-size: 14px;
   list-style: none;
 }
 .terms ul li {
@@ -225,7 +224,6 @@ footer {
   float: left;
 }
 .social ul li a {
-  font-size: 14px;
   color: #626262;
   text-decoration: none;
   display: inline-block;
